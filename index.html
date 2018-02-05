@@ -46,21 +46,46 @@
 
 
 				<section>
-				<html-include src="slides/00-title/index.html"></html-include>
+                    <br/>
+                    <h3>Evolution of specificity in low-specificity S100 proteins</h3>
+
+                    <p style="font-size:30px">Mike Harms (@EvolBiochemist)</p>
+                    <p style="font-size:30px;">University of Oregon</p>
+                    <br/>
+
+                    <p style="font-size:30px">Talk: Oregon State University, February 5, 2018</p>
 				</section>
 
                 <section>
-				<html-include src="slides/harms-lab/index.html"></html-include>
+                    <h4>Harms Lab</h4>
+                    <div class="row" align="center">
+                        <object class="img-responsive" data="slides/harms-lab/img/lab-photo.jpg" type="image/jpg" height="80%" width="80%">
+                        </object>
+                    </div>
                 </section>
 
                 <!--
                 <section>
-                <html-include src="slides/crowded-cell/index.html"></html-include>
+                    <img height="60%" width="60%" src="slides/crowded-cell/mycoplasma.jpg" />
+                    <br/>
+
+                    <small><a href="http://mgl.scripps.edu/people/goodsell/illustration/mycoplasma">Illustration by David S. Goodsell, the Scripps Research Institute.</a></small>
                 </section>
                 -->
     
                 <section>
-                <html-include src="slides/function-summary/index.html"></html-include>
+                    <h4>S100A6 regulates cell proliferation</h4>
+                    <p>It is linked to cancer malignancy and metastasis</p>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <img src="slides/function-summary/structural-overlay.png" />
+                        </div>
+                        <div class="col-xs-8">
+                            <img height="70%" width="70%" src="slides/function-summary/function-summary.png" />
+                        </div>
+                    </div>
+                    <br/>
+                    <small><a href="https://link.springer.com/article/10.1007/s00018-017-2526-9">Donato et al. (2017) Cell Mol Life Sci 74(15):2749</a></small>
                 </section>
 
                 <section>
@@ -112,7 +137,9 @@
                 </section>
  
 				<section>
-				<html-include src="slides/nmr-to-structure/index.html"></html-include>
+                    <h4>Peptides bind at a similar location on the protein</h4>
+                    <img src="slides/nmr-to-structure/nmr-change-on-structure.png" />
+                    <small>Wheeler LC, ... Harms MJ (2017) <em>Biochemistry</em></small>
 				</section>
 
                 <section>
@@ -183,11 +210,15 @@
                 </section>
 
 				<section>
-				<html-include src="slides/heat-map/index.html"></html-include>
+                    <p>The model predicts S100A6 recognizes shape</p>
+                    <img src="slides/heat-map/heat-map.png" />
+                    <br/>
+                    <small>Wheeler, Harms (in prep)</small>
 				</section>
 
                 <section>
-				<html-include src="slides/crystal-hits/index.html"></html-include>
+                    <p>We need structural insight</p>
+                    <img src="slides/crystal-hits/crystal-hits.jpg" />
                 </section>
 
                 <section>
@@ -200,7 +231,39 @@
                 </section>
 
                 <section>
-				<html-include src="slides/funding/index.html"></html-include>
+                    <p><a href="">@EvolBiochemist, harms@uoregon.edu</a></p>
+                    <p><a href="http://harmslab.uoregon.edu">harmslab.uoregon.edu</a>, <a href="https://github.com/harmslab">github.com/harmslab</a></p>
+ 
+                    <h4>Funding</h4>
+                    <p>NIGMS R01GM117140, T32GM007759</p>
+
+                    <div class="row">
+                        <div class="col-xs-2"></div>
+                        <div class="col-xs-1">
+                            <img class="img-responsive" height="90%" width="90%" src="slides/funding/img/sloan_250x250.png" >
+                        </div>
+                        <div class="col-xs-2">
+                    
+                            <img class="img-responsive" height="90%" width="90%" src="slides/funding/img/pew_500x250.png" >
+                        </div>
+                        <div class="col-xs-2">
+
+                            <img class="img-responsive" height="90%" width="90%" src="slides/funding/img/aha_500x250.png" >
+                        </div>
+                        <div class="col-xs-1">
+                    
+                            <img class="img-responsive" height="90%" width="90%" src="slides/funding/img/ohsu_250x250.png" >
+                        </div>
+                        <div class="col-xs-1">
+
+                            <img class="img-responsive" height="90%" width="90%" src="slides/funding/img/nih_250x250.png" >
+                        </div>
+                        <div class="col-xs-1">
+
+                            <img class="img-responsive" height="90%" width="90%" src="slides/funding/img/uo_250x250.png" >
+                        </div>
+                        <div class="col-xs-2"></div>
+                    </div>
                 </section>
         
 			</div>
@@ -241,8 +304,7 @@
                     { src: 'reveal/plugin/math/math.js', async: true },    // mathjax
                     { src: 'https://code.jquery.com/jquery-2.1.4.min.js' } ,
                     { src: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js' } ,
-                    { src: 'https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js' },
-                    { src: 'presentation-data/lib/html-include.min.js' }
+                    { src: 'https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js' }
 				]
 			});
 
